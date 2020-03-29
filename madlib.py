@@ -74,13 +74,12 @@ while True:
     readlib = input( " Would you like to read the Madlib? " )
 
     if readlib == "yes":
-        print (f"Once upon a time, there was a {adj_list[0]} toad in the middle of a {adj_list[1]}  {place_list[0]}. On this particular day, the gnome was {verb_list[0]}ing around the {place_list[1]} waiting for his dear friend, {name_input}. After several {unit_of_time_input} of waiting, the gnome began to {verb_list[1]}. Worried that something wonderful had happened to his friend, the gnome quickly {verb_list[2]}ed to the nearest {place_list[2]} and yelled for help. The sky came falling {direction_input} and nothing was ever the same. The End. ")
+        print (f"Once upon a time, there was a {adj_list[0]} gnome in the middle of a {adj_list[1]}  {place_list[0]}. On this particular day, the gnome was {verb_list[0]}ing around the {place_list[1]} waiting for his dear friend, {name_input}. After several {unit_of_time_input} of waiting, the gnome began to {verb_list[1]}. Worried that something wonderful had happened to his friend, the gnome quickly {verb_list[2]}ed to the nearest {place_list[2]} and yelled for help. The sky came falling {direction_input} and nothing was ever the same. The End. ")
 
-       
   
-    # run_again = input("Would you like to complete another Madlib? ")
+    run_again = input("Would you like to complete another Madlib? ")
     
-    # while run_again != "no" and run_again != "yes":
-    #     run_again = input("Would you like to complete another Madlib? ")
-    # if run_again == 'no':
-    #     break
+    while run_again != "no" and run_again != "yes":
+        run_again = input("Would you like to complete another Madlib? ")
+    if run_again == 'no':
+        break

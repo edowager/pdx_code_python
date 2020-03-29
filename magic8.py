@@ -1,5 +1,5 @@
 import random
-    print ("Welcome to Magia Pellota Ocho")
+print ("Welcome to Magia Pellota Ocho")
 while True:
     print ("Pedirme cualquier cosa")
     user = input()

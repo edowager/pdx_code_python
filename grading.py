@@ -2,7 +2,7 @@ while True:
     num = input("Enter a number: ")
 
     num = float(num)
-      # is there a way to promt user to submit numeric value when input calls for an integer and diff input is given
+      # promt user to submit numeric value when input calls for an integer and diff input is given
 
     if num > 100.0:
         print("YASS")
