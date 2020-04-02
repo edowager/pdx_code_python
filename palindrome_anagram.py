@@ -1,11 +1,11 @@
-# while True:
 user_input = input("Enter word: ")
  
 # print(len(user_input))
  
-# if user_input
- 
-print (user_input[::-1])
+if (user_input) == (user_input[::-1]):
+    print('palindrome')
+else:
+    print('noope!')
  
  
 OR
