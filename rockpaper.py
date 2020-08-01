@@ -36,9 +36,9 @@ while True:
         print("Computer's choice: Paper")
         print("You win!")
 
-    run_again = input("Would you like to complete another Madlib? ")
+    run_again = input("Would you like to play again? ")
     
     while run_again != "no" and run_again != "yes":
-        run_again = input("Would you like to complete another Madlib? ")
+        run_again = input("Would you like to play again? ")
     if run_again == 'no':
         break
